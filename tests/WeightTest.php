@@ -1,7 +1,7 @@
 <?php
 
-use ReyAtwel\WeightConversion\Weight;
 use PHPUnit\Framework\Assert;
+use ReyAtwel\WeightConversion\Weight;
 
 it('can convert kilograms to pounds correctly', function () {
     $kilograms = 100;

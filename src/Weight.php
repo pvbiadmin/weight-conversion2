@@ -8,7 +8,8 @@ class Weight
 {
     private const FACTOR = 0.45359237;
 
-    #[Pure] public static function kilograms(float $kilograms): self
+    #[Pure]
+    public static function kilograms(float $kilograms): self
     {
         return new static($kilograms);
     }
