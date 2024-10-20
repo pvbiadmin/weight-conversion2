@@ -3,7 +3,7 @@
 use ReyAtwel\WeightConversion\Weight;
 use PHPUnit\Framework\Assert;
 
-it('can convert kilograms to pounds', function () {
+it('can convert kilograms to pounds correctly', function () {
     $kilograms = 100;
     $pounds = Weight::kilograms($kilograms)->toPounds();
 
